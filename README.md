@@ -324,6 +324,7 @@ Function That Returns The Amount Of Indetifiers.
 ## Authors
 
 Olukemi Odedeyi - @Quemmies3
+
 Favour Kingsley - @Favour2333
 
 ------------
