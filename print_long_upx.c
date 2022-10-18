@@ -43,5 +43,6 @@ int prinlupx(va_list arguments, char *buf, unsigned int ibuf)
 	}
 	free(binary);
 	free(hexadecimal);
+
 	return (count);
 }
