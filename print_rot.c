@@ -41,5 +41,6 @@ int print_rot(va_list arguments, char *buf, unsigned int ibuf)
 		if (k == 0)
 			ibuf = handl_buf(buf, str[i], ibuf);
 	}
+
 	return (i);
 }
