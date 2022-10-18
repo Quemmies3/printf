@@ -29,6 +29,7 @@ int ev_print_func(const char *s, int index)
 		{"+ i", prinpint}, {"+ d", prinpint}, {" %", print_prg},
 		{NULL, NULL},
 	};
+
 	int i = 0, j = 0, first_index;
 
 	first_index = index;
@@ -48,5 +49,6 @@ int ev_print_func(const char *s, int index)
 			index = first_index;
 		}
 	}
+
 	return (j);
 }

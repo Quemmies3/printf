@@ -30,5 +30,6 @@ char *fill_hex_array(char *bnr, char *hex, int isupp, int limit)
 		else
 			hex[i / 4] = op + toletter;
 	}
+
 	return (hex);
 }
