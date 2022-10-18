@@ -7,9 +7,11 @@
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
+
 int prinhhex(va_list arguments, char *buf, unsigned int ibuf)
 {
 	short int int_input, i, isnegative, count, first_digit;
+
 	char *hexadecimal, *binary;
 
 	int_input = va_arg(arguments, int);
@@ -41,5 +43,6 @@ int prinhhex(va_list arguments, char *buf, unsigned int ibuf)
 	}
 	free(binary);
 	free(hexadecimal);
+
 	return (count);
 }
