@@ -21,7 +21,6 @@ int print_add(va_list arguments, char *buf, unsigned int ibuf)
 	char *hexadecimal, *binary;
 
 	char nill[] = "(nil)";
-
 	add = (va_arg(arguments, void *));
 	if (add == NULL)
 	{
@@ -51,9 +50,7 @@ int print_add(va_list arguments, char *buf, unsigned int ibuf)
 			ibuf = handl_buf(buf, hexadecimal[i], ibuf);
 			count++;
 		}
-	}
-	free(binary);
+	}	free(binary);
 	free(hexadecimal);
-
 	return (count + 2);
 }
